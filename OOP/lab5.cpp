@@ -6,12 +6,13 @@ int  main()
     int x=2;
     int n;
     int i;
+    int k=2;
     cout<<"Enter the terms : ";
     cin>>n;
     for(i=0;i<n;i++)
     {
         cout<<x;
-        x=2x-1;
+        x=k*x-1;
 
     }
     return 0;
