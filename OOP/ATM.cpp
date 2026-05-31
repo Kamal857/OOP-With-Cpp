@@ -38,9 +38,19 @@ int main()
             cin>>checkpin;
             if(checkpin==pin)
             {
-                cout<<"Enter Withdrawn Amount : ";
-                cin>>withdraw;
+                if(balance>withdraw)
+                {
+                     cout<<"Enter Withdrawn Amount : ";
+                     cin>>withdraw;
+                     balance=balance-withdraw;
+                     break;
                 
+                }
+                else{
+                    
+                }
+                
+               
 
             }
             else
