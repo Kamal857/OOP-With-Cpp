@@ -22,7 +22,8 @@ int main()
     for(int i=0;i<n;i++)
     {
         cout<<"Enter name  roll :";
-        cin>>s[i].name>>s[i].roll;
+        getline(cin>>ws,s[i].name);
+        cin>>s[i].roll;
         cout<<"Enter Marks of 5 Subjects: ";
         cin>>s[i].s1>>s[i].s2>>s[i].s3>>s[i].s4>>s[i].s5;
         s[i].per=(s[i].s1+s[i].s2+s[i].s3+s[i].s4+s[i].s5)/5;
